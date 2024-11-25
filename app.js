@@ -3,7 +3,6 @@ const display = document.getElementById("display");
 let speed = 12;
 let interval;
 let index = 0;
-let cycleCount = 0;
 
 function displayOneByOne() {
     clearInterval(interval);
